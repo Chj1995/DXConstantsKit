@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DXConstantsKit_Example' do
+  pod 'DXConstantsKit', :path => '../'
+
+  target 'DXConstantsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
