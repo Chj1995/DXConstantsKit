@@ -1,0 +1,33 @@
+PODS:
+  - DXConstantsKit (0.1.1):
+    - DXConstantsKit/Color (= 0.1.1)
+    - DXConstantsKit/Font (= 0.1.1)
+    - DXConstantsKit/Frame (= 0.1.1)
+    - DXConstantsKit/Other (= 0.1.1)
+    - DXConstantsKit/Sandbox (= 0.1.1)
+    - DXConstantsKit/Service (= 0.1.1)
+    - DXConstantsKit/Tool (= 0.1.1)
+    - DXConstantsKit/Type (= 0.1.1)
+  - DXConstantsKit/Color (0.1.1)
+  - DXConstantsKit/Font (0.1.1):
+    - DXConstantsKit/Other
+  - DXConstantsKit/Frame (0.1.1)
+  - DXConstantsKit/Other (0.1.1)
+  - DXConstantsKit/Sandbox (0.1.1)
+  - DXConstantsKit/Service (0.1.1)
+  - DXConstantsKit/Tool (0.1.1)
+  - DXConstantsKit/Type (0.1.1)
+
+DEPENDENCIES:
+  - DXConstantsKit (from `../`)
+
+EXTERNAL SOURCES:
+  DXConstantsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DXConstantsKit: cc4dd1c2864abccdaa4cbe84422236b93b08a7fa
+
+PODFILE CHECKSUM: a48df76e379975c90ed8af9794d8528b81886bed
+
+COCOAPODS: 1.9.3

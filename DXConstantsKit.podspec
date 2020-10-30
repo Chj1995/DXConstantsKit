@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DXConstantsKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of DXConstantsKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,33 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DXConstantsKit/Classes/**/*'
+  s.source_files = 'DXConstantsKit/Classes/ConstantsKitHeader.h'
+  #--------分层--------#
+  s.subspec 'Other' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Other/*'
+  end
+  s.subspec 'Color' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Color/*'
+  end
+  s.subspec 'Font' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Font/*'
+    ss.dependency 'DXConstantsKit/Other'
+  end
+  s.subspec 'Frame' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Frame/*'
+  end
+  s.subspec 'Sandbox' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Sandbox/*'
+  end
+  s.subspec 'Service' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Service/*'
+  end
+  s.subspec 'Tool' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Tool/*'
+  end
+  s.subspec 'Type' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Type/*'
+  end
   
   # s.resource_bundles = {
   #   'DXConstantsKit' => ['DXConstantsKit/Assets/*.png']

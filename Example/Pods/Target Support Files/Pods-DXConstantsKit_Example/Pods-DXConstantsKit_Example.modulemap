@@ -1,0 +1,6 @@
+framework module Pods_DXConstantsKit_Example {
+  umbrella header "Pods-DXConstantsKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

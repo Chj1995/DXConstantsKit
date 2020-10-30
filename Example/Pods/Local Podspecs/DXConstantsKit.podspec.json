@@ -1,0 +1,61 @@
+{
+  "name": "DXConstantsKit",
+  "version": "0.1.1",
+  "summary": "A short description of DXConstantsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chj1995/DXConstantsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chj1995": "chenhj@actumtech.com"
+  },
+  "source": {
+    "git": "https://github.com/Chj1995/DXConstantsKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DXConstantsKit/Classes/ConstantsKitHeader.h",
+  "subspecs": [
+    {
+      "name": "Other",
+      "source_files": "DXConstantsKit/Classes/Other/*"
+    },
+    {
+      "name": "Color",
+      "source_files": "DXConstantsKit/Classes/Color/*"
+    },
+    {
+      "name": "Font",
+      "source_files": "DXConstantsKit/Classes/Font/*",
+      "dependencies": {
+        "DXConstantsKit/Other": [
+
+        ]
+      }
+    },
+    {
+      "name": "Frame",
+      "source_files": "DXConstantsKit/Classes/Frame/*"
+    },
+    {
+      "name": "Sandbox",
+      "source_files": "DXConstantsKit/Classes/Sandbox/*"
+    },
+    {
+      "name": "Service",
+      "source_files": "DXConstantsKit/Classes/Service/*"
+    },
+    {
+      "name": "Tool",
+      "source_files": "DXConstantsKit/Classes/Tool/*"
+    },
+    {
+      "name": "Type",
+      "source_files": "DXConstantsKit/Classes/Type/*"
+    }
+  ]
+}
