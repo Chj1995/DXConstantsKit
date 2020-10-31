@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DXConstantsKit/Classes/ConstantsKitHeader.h'
+  s.source_files = 'DXConstantsKit/Classes/DXConstantsKit.h'
   #--------分层--------#
   s.subspec 'Other' do |ss|
     ss.source_files = 'DXConstantsKit/Classes/Other/*'

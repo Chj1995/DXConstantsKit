@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DXConstantsKit/Classes/ConstantsKitHeader.h",
+  "source_files": "DXConstantsKit/Classes/DXConstantsKit.h",
   "subspecs": [
     {
       "name": "Other",
