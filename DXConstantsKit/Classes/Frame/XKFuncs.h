@@ -31,7 +31,23 @@ CG_INLINE CGFloat XKFixWidth(CGFloat width) {
     width = width * SCREEN_WIDTH / 375.0;
     return width;
 }
-
+static inline UIFont* KNornalFont(CGFloat fontSize) {
+    return [UIFont fontWithName:@"PingFangSC-Regular" size:fontSize];
+}
+static inline UIFont* KLightFont(CGFloat fontSize) {
+    return [UIFont fontWithName:@"PingFangSC-Light" size:fontSize];
+}
+static inline UIFont* KBlodFont(CGFloat fontSize) {
+    return [UIFont fontWithName:@"PingFangSC-Semibold" size:fontSize];
+}
+static inline UIFont* KMediumFont(CGFloat fontSize) {
+    return [UIFont fontWithName:@"PingFangSC-Medium" size:fontSize];
+}
+static inline UIFont* KMediumMTFont(CGFloat fontSize) { // 斜体
+    CGAffineTransform matrix = CGAffineTransformMake(1, 0, tanf(5 * (CGFloat)M_PI / 180), 1, 0, 0);
+    UIFontDescriptor *desc = [UIFontDescriptor fontDescriptorWithName:KMediumFont(10).fontName matrix:matrix];
+    return [UIFont fontWithDescriptor:desc size:fontSize];
+}
 //获取版本号
 #define KAPPShortVersion [[NSBundle mainBundle] infoDictionary][@"CFBundleShortVersionString"]
 #define KAPPBundleIdentifier [[NSBundle mainBundle] infoDictionary][@"CFBundleIdentifier"]
