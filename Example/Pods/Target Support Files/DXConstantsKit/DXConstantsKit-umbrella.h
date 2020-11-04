@@ -11,6 +11,7 @@
 #endif
 
 #import "DXConstantsKit.h"
+#import "XKMaxAreaButton.h"
 #import "XKColor.h"
 #import "XK_FMColor.h"
 #import "XKLayoutManager.h"

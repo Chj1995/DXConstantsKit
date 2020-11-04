@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DXConstantsKit'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'A short description of DXConstantsKit.'
 
 # This description is used to generate tags and improve search results.
@@ -47,6 +47,9 @@ TODO: Add long description of the pod here.
   end
   s.subspec 'Sandbox' do |ss|
     ss.source_files = 'DXConstantsKit/Classes/Sandbox/*'
+  end
+  s.subspec 'Button' do |ss|
+    ss.source_files = 'DXConstantsKit/Classes/Button/*'
   end
   s.subspec 'Service' do |ss|
     ss.source_files = 'DXConstantsKit/Classes/Service/*'
