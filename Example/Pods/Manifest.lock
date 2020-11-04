@@ -1,22 +1,22 @@
 PODS:
-  - DXConstantsKit (0.1.6):
-    - DXConstantsKit/Color (= 0.1.6)
-    - DXConstantsKit/Font (= 0.1.6)
-    - DXConstantsKit/Frame (= 0.1.6)
-    - DXConstantsKit/Other (= 0.1.6)
-    - DXConstantsKit/Sandbox (= 0.1.6)
-    - DXConstantsKit/Service (= 0.1.6)
-    - DXConstantsKit/Tool (= 0.1.6)
-    - DXConstantsKit/Type (= 0.1.6)
-  - DXConstantsKit/Color (0.1.6)
-  - DXConstantsKit/Font (0.1.6):
+  - DXConstantsKit (0.1.7):
+    - DXConstantsKit/Color (= 0.1.7)
+    - DXConstantsKit/Font (= 0.1.7)
+    - DXConstantsKit/Frame (= 0.1.7)
+    - DXConstantsKit/Other (= 0.1.7)
+    - DXConstantsKit/Sandbox (= 0.1.7)
+    - DXConstantsKit/Service (= 0.1.7)
+    - DXConstantsKit/Tool (= 0.1.7)
+    - DXConstantsKit/Type (= 0.1.7)
+  - DXConstantsKit/Color (0.1.7)
+  - DXConstantsKit/Font (0.1.7):
     - DXConstantsKit/Other
-  - DXConstantsKit/Frame (0.1.6)
-  - DXConstantsKit/Other (0.1.6)
-  - DXConstantsKit/Sandbox (0.1.6)
-  - DXConstantsKit/Service (0.1.6)
-  - DXConstantsKit/Tool (0.1.6)
-  - DXConstantsKit/Type (0.1.6)
+  - DXConstantsKit/Frame (0.1.7)
+  - DXConstantsKit/Other (0.1.7)
+  - DXConstantsKit/Sandbox (0.1.7)
+  - DXConstantsKit/Service (0.1.7)
+  - DXConstantsKit/Tool (0.1.7)
+  - DXConstantsKit/Type (0.1.7)
 
 DEPENDENCIES:
   - DXConstantsKit (from `../`)
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXConstantsKit: 11b72e56b2b52b6d1d2db6dbe6a1e00856a8a125
+  DXConstantsKit: 5da6ab8a494bdb68a35ffe2f99492eacb142529e
 
 PODFILE CHECKSUM: a48df76e379975c90ed8af9794d8528b81886bed
 
