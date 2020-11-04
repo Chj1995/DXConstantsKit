@@ -7,34 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F3306C445CDB310B7737B0B8905523 /* XKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A22F7BD2E2730EDF5D377B69A036D8A8 /* XKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B7405E2C7E457A2C5F3E929358C81C3 /* XKLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 907D277A9E13BD7B06228A8E8D01F975 /* XKLayoutManager.m */; };
-		1085294B8116341B7B563F7056F2550C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		124413D59DB54EF6F50ED3F974C4EC63 /* XKContants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD40E74F13B37ACF2C1101A0EF9912B /* XKContants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13E6273B7B19D8D598F2335414A780D3 /* XKLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFC34DB8AE738688C9A2711B85CB6C0 /* XKLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		231F6BFA3DA84956A35BA99F05FFC573 /* LiveDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF55AC196506D79A977DE6599D7D0C7 /* LiveDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DE6DDA545F507EE8516E2D6C2087D82 /* DXConstantsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD16AA7419BB0390D335D5BC1DC3BA0C /* DXConstantsKit-dummy.m */; };
+		0CAC3F856444922319AFC7B56CA27D51 /* LiveDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF55B3A9ECA8947AEA3323975321F18 /* LiveDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D7C9DAE68CE94D42341ABADA2E714DC /* XK_FMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BF75605305F4366F95C85CDB1900DC /* XK_FMColor.m */; };
+		23CE487E17EE4DC96055BC0220F6449F /* XKToolsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EA18D9626E98D504028DEDC2B8D1B /* XKToolsFunction.m */; };
+		2D5D4684A17D6984E79B26A6BC7011D8 /* XKEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7E0756091B062B077BB7B7418F0095 /* XKEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC5432013E36699E92C993BB580A44D /* XKShellHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 82441891FCEBCE50F8EF0E938EEC80C5 /* XKShellHead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387B2EBC80C0A7DB1BC2D42FF49109C7 /* XK_FMColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4738A092974962ACA00C1D7EEE6E4401 /* XK_FMColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF046AEC3229400D0006DC6B20869CA /* SandboxFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FD4E060A34668F199D934E5740E429 /* SandboxFile.m */; };
+		478303F69D930DA5DF4D33E897EB89CC /* DXConstantsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CC7FC4CB5960BD0C1B13C080C30D4F /* DXConstantsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4834326946FF299166442E7E157881BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		585614DD4470CD738341C0C15295DC91 /* XK_FMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FE4214BE94BECA730345F55F0B2F56 /* XK_FMColor.m */; };
-		5C05BDA64C51B8416C4209645345D79E /* XKNotifacionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B71EAFA56C46BE078770EA8281583F5E /* XKNotifacionKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D6511F93D1A1C3B49353D03F4611ABC /* XKServiceURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D18BF36F30FB8065936C639BD986FB2 /* XKServiceURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E5067AA1B2EB2C7440120BED1D23CFC /* XK_FMColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B78A94DA93BD5837A01AEAFD11199673 /* XK_FMColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		657F3D66828C18DCBE48C56E0D4DE693 /* ServiceApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 046479C035574B9A7E41F5F35A9D4605 /* ServiceApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA368C1106918075F0244EC41549868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		57C9D10E9D19905563499E095CBCA028 /* XKLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0924E844F7F55D624E2CF8335655E165 /* XKLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66B8601C44E70A547D286346839D4DD3 /* XKServiceURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AC4E8E50C1061DBCA6AFE717F43D5C /* XKServiceURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67EC46360CD393EA6BB6C7DA42B7C906 /* XKContants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1EC2784649C3B2725ADC77020EDAB2 /* XKContants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D027228CAFEC503BDAD412E733C63ED /* XKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6BFEC011BF9F574B8C978D54B4F1E1 /* XKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D317FB2A29956FA1C4EB7990F970686 /* Pods-DXConstantsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C173AA8BF5713D662C8272EAAD6701EA /* Pods-DXConstantsKit_Tests-dummy.m */; };
-		6F1D946F49BD88A8DFE6FA82A3F0CCBE /* XKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FABFF4D3F1EF2A681D3F8E5F77727546 /* XKColor.m */; };
+		6EE5FEE4C834CE6DFA042F1B47D80413 /* XKLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1655504581AC541BD78980D31545026 /* XKLayoutManager.m */; };
+		728BB6057B981C6CD54CBC7C010F575D /* XKNotifacionKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 7980403DCD143A346436C90D1F36B606 /* XKNotifacionKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ABA00DE10F7AF198009225455266B05 /* Pods-DXConstantsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2024470F5E49719C1FC75DBFDC9B6E34 /* Pods-DXConstantsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AF1CBD9DFE8FF4B3F36347B9F27999A /* XKToolsFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = DD27EB983AA87A2F9AC4E2EB341FDFFF /* XKToolsFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D744EFDAAD5FD24CDF10DDD05BF237D /* DXConstantsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1104D32116B0E995DE4EE931C0265CBB /* DXConstantsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98DA6BBB5AD1104AF1667F362010617A /* Pods-DXConstantsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F71D2DF9AAF183C2CF46F0D57CA88C /* Pods-DXConstantsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A41CAF5BD8AF034E147D44773FDAF6B6 /* DXConstantsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FECAC815C57DFA64B14C3C9EAF521256 /* DXConstantsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26E9E339F6139B74C122A829C29B873 /* SandboxFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDFF1DAA78C2A4DE33F0A40D9FCF662 /* SandboxFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A81C6529C8A8B916D177BB56D82B1382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AEE409EF08056293CEE22311A3BAAD28 /* XKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C58E26BCE1108B9BDDD51993BC9E705 /* XKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6308565411B3EE9C06ECC8B3A4FCF63 /* DXConstantsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D5733EB4F65394969E72B2A06B6AE378 /* DXConstantsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5CCDB0EF6FD11465B04174AB4D5600D /* XKEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 67987DABCA88CAAD73B2301C977DDBE6 /* XKEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7A030E88F78F1F94C7F655F346AE7E0 /* SandboxFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B07055843EAF951F0F15EDDC60231 /* SandboxFile.m */; };
+		B53F3447751574D32635CBE873D0480A /* XKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF65B55B0F9E505122E8BE8DF48B74 /* XKColor.m */; };
+		B5E81AAFCE8B841BAB0B3E95CE4E7F34 /* XKToolsFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DC704CA543FF3FC76CB0485BFE0A5E /* XKToolsFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDD0932634343B96CBE12669479EAC9 /* DXConstantsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D16E91A46D4D394B163B8BD96AEB34B /* DXConstantsKit-dummy.m */; };
+		C72349F75A1CE65C78D01A779E463287 /* XKFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BCC8B9E04DBE21F916C252612CF3DF /* XKFuncs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEA98A3CAE731693CCC1787FEB17FD54 /* Pods-DXConstantsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290EE6EFDD954A5DEF672107D382636 /* Pods-DXConstantsKit_Example-dummy.m */; };
-		D744F4659FE4EA5AD20D62A8272310A9 /* SandboxFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D011F97C4E13B846575480338CDF89 /* SandboxFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5E931CCD2E523E35EEE415CFA3DCCAD /* XKFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C60FFDAC75A5F75DAFE35E4488E09B /* XKFuncs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8C8D605E646965F64B5F9A556BF09D1 /* XKToolsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B7FA47BF9539E7C478482D3B93FEB /* XKToolsFunction.m */; };
+		E3E2F47BBCCD81AB3C59C8455DAD0ACE /* ServiceApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 024179B6DA59E51AEB6B853775D18555 /* ServiceApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DC252969777F5CACBF8E2C61710011 /* XKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 138B4C8ACDD7EC8470C872172A923A0D /* XKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D735B65F02C895827F6753039FD679 /* XKAPPConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 929C63E43F13BB149B0EC0D427874C21 /* XKAPPConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,57 +57,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C6D7DDA11149D0C65A353F8E266CB0 /* DXConstantsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DXConstantsKit.modulemap; sourceTree = "<group>"; };
-		046479C035574B9A7E41F5F35A9D4605 /* ServiceApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceApi.h; path = DXConstantsKit/Classes/Service/ServiceApi.h; sourceTree = "<group>"; };
-		0B7B7FA47BF9539E7C478482D3B93FEB /* XKToolsFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKToolsFunction.m; path = DXConstantsKit/Classes/Tool/XKToolsFunction.m; sourceTree = "<group>"; };
-		0C58E26BCE1108B9BDDD51993BC9E705 /* XKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKColor.h; path = DXConstantsKit/Classes/Color/XKColor.h; sourceTree = "<group>"; };
-		11C60FFDAC75A5F75DAFE35E4488E09B /* XKFuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKFuncs.h; path = DXConstantsKit/Classes/Frame/XKFuncs.h; sourceTree = "<group>"; };
+		024179B6DA59E51AEB6B853775D18555 /* ServiceApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceApi.h; path = DXConstantsKit/Classes/Service/ServiceApi.h; sourceTree = "<group>"; };
+		0924E844F7F55D624E2CF8335655E165 /* XKLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKLayoutManager.h; path = DXConstantsKit/Classes/Font/XKLayoutManager.h; sourceTree = "<group>"; };
+		0D16E91A46D4D394B163B8BD96AEB34B /* DXConstantsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DXConstantsKit-dummy.m"; sourceTree = "<group>"; };
+		1104D32116B0E995DE4EE931C0265CBB /* DXConstantsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXConstantsKit-umbrella.h"; sourceTree = "<group>"; };
+		12BF75605305F4366F95C85CDB1900DC /* XK_FMColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XK_FMColor.m; path = DXConstantsKit/Classes/Color/XK_FMColor.m; sourceTree = "<group>"; };
+		138B4C8ACDD7EC8470C872172A923A0D /* XKConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKConstants.h; path = DXConstantsKit/Classes/Other/XKConstants.h; sourceTree = "<group>"; };
+		14BF65B55B0F9E505122E8BE8DF48B74 /* XKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKColor.m; path = DXConstantsKit/Classes/Color/XKColor.m; sourceTree = "<group>"; };
 		15831954E36C90CA93A300EE3280C9E2 /* Pods-DXConstantsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DXConstantsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2024470F5E49719C1FC75DBFDC9B6E34 /* Pods-DXConstantsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DXConstantsKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		25D011F97C4E13B846575480338CDF89 /* SandboxFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SandboxFile.h; path = DXConstantsKit/Classes/Sandbox/SandboxFile.h; sourceTree = "<group>"; };
 		260C2943043940EBE4DD448AE13BADE2 /* Pods-DXConstantsKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DXConstantsKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		2AD0F0F615AF3D129A627D601B67C61F /* DXConstantsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DXConstantsKit-Info.plist"; sourceTree = "<group>"; };
-		2CFC34DB8AE738688C9A2711B85CB6C0 /* XKLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKLayoutManager.h; path = DXConstantsKit/Classes/Font/XKLayoutManager.h; sourceTree = "<group>"; };
 		31F319ADE1039C0576D6863DEB4A1437 /* Pods_DXConstantsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DXConstantsKit_Tests.framework; path = "Pods-DXConstantsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3290EE6EFDD954A5DEF672107D382636 /* Pods-DXConstantsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DXConstantsKit_Example-dummy.m"; sourceTree = "<group>"; };
-		32FE4214BE94BECA730345F55F0B2F56 /* XK_FMColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XK_FMColor.m; path = DXConstantsKit/Classes/Color/XK_FMColor.m; sourceTree = "<group>"; };
-		35C1A47ECEF1AED4420A87DEF91C2681 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3DF197BC40D83C8599C1072438DBD254 /* DXConstantsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DXConstantsKit.debug.xcconfig; sourceTree = "<group>"; };
-		4D18BF36F30FB8065936C639BD986FB2 /* XKServiceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKServiceURL.h; path = DXConstantsKit/Classes/Service/XKServiceURL.h; sourceTree = "<group>"; };
-		4DF55AC196506D79A977DE6599D7D0C7 /* LiveDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDefine.h; path = DXConstantsKit/Classes/Type/LiveDefine.h; sourceTree = "<group>"; };
+		34932A9BC00EFA757A308C683B138A20 /* DXConstantsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXConstantsKit-prefix.pch"; sourceTree = "<group>"; };
+		36ABB32160E84021948CE0EC380EE21B /* DXConstantsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DXConstantsKit-Info.plist"; sourceTree = "<group>"; };
+		3F9EA18D9626E98D504028DEDC2B8D1B /* XKToolsFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKToolsFunction.m; path = DXConstantsKit/Classes/Tool/XKToolsFunction.m; sourceTree = "<group>"; };
+		4738A092974962ACA00C1D7EEE6E4401 /* XK_FMColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XK_FMColor.h; path = DXConstantsKit/Classes/Color/XK_FMColor.h; sourceTree = "<group>"; };
 		4FF47779365A291D80F66C3A4230BF9C /* Pods_DXConstantsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DXConstantsKit_Example.framework; path = "Pods-DXConstantsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AC4E8E50C1061DBCA6AFE717F43D5C /* XKServiceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKServiceURL.h; path = DXConstantsKit/Classes/Service/XKServiceURL.h; sourceTree = "<group>"; };
+		5B1EC2784649C3B2725ADC77020EDAB2 /* XKContants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKContants.h; path = DXConstantsKit/Classes/Other/XKContants.h; sourceTree = "<group>"; };
 		5C2A2D989698348DB7C3D64D16E80EDA /* Pods-DXConstantsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DXConstantsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5EC078E502554E8C21AE8C0F504D0B22 /* Pods-DXConstantsKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DXConstantsKit_Example-Info.plist"; sourceTree = "<group>"; };
 		60082157C659D2D03602280A161EE1A2 /* Pods-DXConstantsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DXConstantsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		621E121238B6E30018E3ECE6E25609E2 /* Pods-DXConstantsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DXConstantsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		67987DABCA88CAAD73B2301C977DDBE6 /* XKEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKEnum.h; path = DXConstantsKit/Classes/Type/XKEnum.h; sourceTree = "<group>"; };
-		68090388C0848942FAF3F249370203E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		681BBE1297BF821C0F9F26CFAF219891 /* Pods-DXConstantsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DXConstantsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		71DD07AA1118F79B24CFD9404755E399 /* Pods-DXConstantsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXConstantsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7980403DCD143A346436C90D1F36B606 /* XKNotifacionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKNotifacionKey.h; path = DXConstantsKit/Classes/Other/XKNotifacionKey.h; sourceTree = "<group>"; };
 		7B78419E81164FE804795D2CA7904088 /* Pods-DXConstantsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DXConstantsKit_Example.modulemap"; sourceTree = "<group>"; };
-		907D277A9E13BD7B06228A8E8D01F975 /* XKLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKLayoutManager.m; path = DXConstantsKit/Classes/Font/XKLayoutManager.m; sourceTree = "<group>"; };
-		9AD40E74F13B37ACF2C1101A0EF9912B /* XKContants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKContants.h; path = DXConstantsKit/Classes/Other/XKContants.h; sourceTree = "<group>"; };
+		7D4AC39028D3C6FD7085EE76143D05AC /* DXConstantsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DXConstantsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		82441891FCEBCE50F8EF0E938EEC80C5 /* XKShellHead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKShellHead.h; path = DXConstantsKit/Classes/Service/XKShellHead.h; sourceTree = "<group>"; };
+		9008829171DAAB05A7889AFA8B1BD99C /* DXConstantsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DXConstantsKit.release.xcconfig; sourceTree = "<group>"; };
+		929C63E43F13BB149B0EC0D427874C21 /* XKAPPConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKAPPConfig.h; path = DXConstantsKit/Classes/Service/XKAPPConfig.h; sourceTree = "<group>"; };
+		9CDFF1DAA78C2A4DE33F0A40D9FCF662 /* SandboxFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SandboxFile.h; path = DXConstantsKit/Classes/Sandbox/SandboxFile.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FAEDB6EF2136B283410B70517E008DF /* DXConstantsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DXConstantsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A22F7BD2E2730EDF5D377B69A036D8A8 /* XKConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKConstants.h; path = DXConstantsKit/Classes/Other/XKConstants.h; sourceTree = "<group>"; };
+		A05D3454044B53C7F0071D64B62309EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A25D10603E7312D87CCE324C24C87A85 /* Pods-DXConstantsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXConstantsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA6BFEC011BF9F574B8C978D54B4F1E1 /* XKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKColor.h; path = DXConstantsKit/Classes/Color/XKColor.h; sourceTree = "<group>"; };
+		ACC7ADA0F71E434D8641405219CC72B3 /* DXConstantsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DXConstantsKit.modulemap; sourceTree = "<group>"; };
 		AF17153250925DCBB98B168E7C7C537C /* Pods-DXConstantsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXConstantsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B05B07055843EAF951F0F15EDDC60231 /* SandboxFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SandboxFile.m; path = DXConstantsKit/Classes/Sandbox/SandboxFile.m; sourceTree = "<group>"; };
-		B71EAFA56C46BE078770EA8281583F5E /* XKNotifacionKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKNotifacionKey.h; path = DXConstantsKit/Classes/Other/XKNotifacionKey.h; sourceTree = "<group>"; };
-		B78A94DA93BD5837A01AEAFD11199673 /* XK_FMColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XK_FMColor.h; path = DXConstantsKit/Classes/Color/XK_FMColor.h; sourceTree = "<group>"; };
+		B1B2913A2175984121B12D13DC425A08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B1E43629C767CE877BD4EA5853C9163B /* DXConstantsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DXConstantsKit.debug.xcconfig; sourceTree = "<group>"; };
+		B2DC704CA543FF3FC76CB0485BFE0A5E /* XKToolsFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKToolsFunction.h; path = DXConstantsKit/Classes/Tool/XKToolsFunction.h; sourceTree = "<group>"; };
+		B3FD4E060A34668F199D934E5740E429 /* SandboxFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SandboxFile.m; path = DXConstantsKit/Classes/Sandbox/SandboxFile.m; sourceTree = "<group>"; };
 		BC935F4AC60A72EB68FF4CA0EBDA90E6 /* DXConstantsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DXConstantsKit.framework; path = DXConstantsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD16AA7419BB0390D335D5BC1DC3BA0C /* DXConstantsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DXConstantsKit-dummy.m"; sourceTree = "<group>"; };
 		C173AA8BF5713D662C8272EAAD6701EA /* Pods-DXConstantsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DXConstantsKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		D5733EB4F65394969E72B2A06B6AE378 /* DXConstantsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DXConstantsKit.h; path = DXConstantsKit/Classes/DXConstantsKit.h; sourceTree = "<group>"; };
 		D9F71D2DF9AAF183C2CF46F0D57CA88C /* Pods-DXConstantsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DXConstantsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DD27EB983AA87A2F9AC4E2EB341FDFFF /* XKToolsFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKToolsFunction.h; path = DXConstantsKit/Classes/Tool/XKToolsFunction.h; sourceTree = "<group>"; };
-		EAD6DF00806415D27B1070D0B9200DAA /* DXConstantsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXConstantsKit-prefix.pch"; sourceTree = "<group>"; };
+		DB7E0756091B062B077BB7B7418F0095 /* XKEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKEnum.h; path = DXConstantsKit/Classes/Type/XKEnum.h; sourceTree = "<group>"; };
+		DEF55B3A9ECA8947AEA3323975321F18 /* LiveDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LiveDefine.h; path = DXConstantsKit/Classes/Type/LiveDefine.h; sourceTree = "<group>"; };
+		E2CC7FC4CB5960BD0C1B13C080C30D4F /* DXConstantsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DXConstantsKit.h; path = DXConstantsKit/Classes/DXConstantsKit.h; sourceTree = "<group>"; };
 		EC5EF9BD1B1DEF30F9C0366EDF8D143F /* Pods-DXConstantsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DXConstantsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED6446B4DD302BD0999A0FA1588D037D /* Pods-DXConstantsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DXConstantsKit_Tests.modulemap"; sourceTree = "<group>"; };
-		F98706775B01F1BCA44B7027996C0499 /* DXConstantsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DXConstantsKit.release.xcconfig; sourceTree = "<group>"; };
-		FABFF4D3F1EF2A681D3F8E5F77727546 /* XKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKColor.m; path = DXConstantsKit/Classes/Color/XKColor.m; sourceTree = "<group>"; };
-		FECAC815C57DFA64B14C3C9EAF521256 /* DXConstantsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DXConstantsKit-umbrella.h"; sourceTree = "<group>"; };
+		F0BCC8B9E04DBE21F916C252612CF3DF /* XKFuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XKFuncs.h; path = DXConstantsKit/Classes/Frame/XKFuncs.h; sourceTree = "<group>"; };
+		F1655504581AC541BD78980D31545026 /* XKLayoutManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XKLayoutManager.m; path = DXConstantsKit/Classes/Font/XKLayoutManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E0322B9BBA7449F5D5E11B651D7E5DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1085294B8116341B7B563F7056F2550C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5254BDE1A4480504C0949703C1D51BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,24 +129,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE922754A705F1E0D6F2DB39FA4F0191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA368C1106918075F0244EC41549868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16FC0103F250DD0F5F6FD0C0BA342D88 /* Color */ = {
+		1E35800EF1A3395FD09468B69B487294 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				B78A94DA93BD5837A01AEAFD11199673 /* XK_FMColor.h */,
-				32FE4214BE94BECA730345F55F0B2F56 /* XK_FMColor.m */,
-				0C58E26BCE1108B9BDDD51993BC9E705 /* XKColor.h */,
-				FABFF4D3F1EF2A681D3F8E5F77727546 /* XKColor.m */,
+				0924E844F7F55D624E2CF8335655E165 /* XKLayoutManager.h */,
+				F1655504581AC541BD78980D31545026 /* XKLayoutManager.m */,
 			);
-			name = Color;
+			name = Font;
+			sourceTree = "<group>";
+		};
+		2172B69A0F564CAB0158A75F4538B1E0 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				DEF55B3A9ECA8947AEA3323975321F18 /* LiveDefine.h */,
+				DB7E0756091B062B077BB7B7418F0095 /* XKEnum.h */,
+			);
+			name = Type;
 			sourceTree = "<group>";
 		};
 		2991C423D692B54379E11F2E7FF97A34 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BC20B99C51D03E897D19C67417EADA5 /* DXConstantsKit */,
+				EE47279452564FC6E5B8DB0F73B32E44 /* DXConstantsKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -164,21 +175,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2BEBAA7DC960E1035779ABA7FE476E86 /* Type */ = {
+		3602FBA568AEFD3DB5CA84348EB5D2A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DF55AC196506D79A977DE6599D7D0C7 /* LiveDefine.h */,
-				67987DABCA88CAAD73B2301C977DDBE6 /* XKEnum.h */,
+				ACC7ADA0F71E434D8641405219CC72B3 /* DXConstantsKit.modulemap */,
+				0D16E91A46D4D394B163B8BD96AEB34B /* DXConstantsKit-dummy.m */,
+				36ABB32160E84021948CE0EC380EE21B /* DXConstantsKit-Info.plist */,
+				34932A9BC00EFA757A308C683B138A20 /* DXConstantsKit-prefix.pch */,
+				1104D32116B0E995DE4EE931C0265CBB /* DXConstantsKit-umbrella.h */,
+				B1E43629C767CE877BD4EA5853C9163B /* DXConstantsKit.debug.xcconfig */,
+				9008829171DAAB05A7889AFA8B1BD99C /* DXConstantsKit.release.xcconfig */,
 			);
-			name = Type;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DXConstantsKit";
 			sourceTree = "<group>";
 		};
-		3D94A66420446C5297AC6803A8ECCC18 /* Frame */ = {
+		4462495655C5CB6E24FA6CCE9D928BD6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				11C60FFDAC75A5F75DAFE35E4488E09B /* XKFuncs.h */,
+				024179B6DA59E51AEB6B853775D18555 /* ServiceApi.h */,
+				929C63E43F13BB149B0EC0D427874C21 /* XKAPPConfig.h */,
+				58AC4E8E50C1061DBCA6AFE717F43D5C /* XKServiceURL.h */,
+				82441891FCEBCE50F8EF0E938EEC80C5 /* XKShellHead.h */,
 			);
-			name = Frame;
+			name = Service;
 			sourceTree = "<group>";
 		};
 		4C97E25B5996A7A186E2653890775F0C /* Pods-DXConstantsKit_Example */ = {
@@ -196,6 +216,15 @@
 			);
 			name = "Pods-DXConstantsKit_Example";
 			path = "Target Support Files/Pods-DXConstantsKit_Example";
+			sourceTree = "<group>";
+		};
+		4DADD5B6C390B90EB37B5522F9A66F33 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				9CDFF1DAA78C2A4DE33F0A40D9FCF662 /* SandboxFile.h */,
+				B3FD4E060A34668F199D934E5740E429 /* SandboxFile.m */,
+			);
+			name = Sandbox;
 			sourceTree = "<group>";
 		};
 		65FA28019FE62BE8D5031F3A8A52A28C /* Pods-DXConstantsKit_Tests */ = {
@@ -224,66 +253,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BC20B99C51D03E897D19C67417EADA5 /* DXConstantsKit */ = {
+		A6A8060C9BBA59E50515F1D767A059FB /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				D5733EB4F65394969E72B2A06B6AE378 /* DXConstantsKit.h */,
-				16FC0103F250DD0F5F6FD0C0BA342D88 /* Color */,
-				F538CCB8FB9BE822E074A8AC1F953E67 /* Font */,
-				3D94A66420446C5297AC6803A8ECCC18 /* Frame */,
-				C8CA085660CC2889B141CA956961031E /* Other */,
-				AC81DFDDB3C45AAB798F8EE724C2EC7A /* Pod */,
-				9E9A57A13AC9813A5D53DF925FCC3A48 /* Sandbox */,
-				FA88463495DFDEA2F85F4D8D675FF65F /* Service */,
-				99D1739585697134513E0942DD349AE4 /* Support Files */,
-				98923A2A6C54CD7E18BEA204012A941B /* Tool */,
-				2BEBAA7DC960E1035779ABA7FE476E86 /* Type */,
+				138B4C8ACDD7EC8470C872172A923A0D /* XKConstants.h */,
+				5B1EC2784649C3B2725ADC77020EDAB2 /* XKContants.h */,
+				7980403DCD143A346436C90D1F36B606 /* XKNotifacionKey.h */,
 			);
-			name = DXConstantsKit;
-			path = ../..;
+			name = Other;
 			sourceTree = "<group>";
 		};
-		98923A2A6C54CD7E18BEA204012A941B /* Tool */ = {
+		A7C0BC805C0B9A7331AE33D04349E772 /* Frame */ = {
 			isa = PBXGroup;
 			children = (
-				DD27EB983AA87A2F9AC4E2EB341FDFFF /* XKToolsFunction.h */,
-				0B7B7FA47BF9539E7C478482D3B93FEB /* XKToolsFunction.m */,
+				F0BCC8B9E04DBE21F916C252612CF3DF /* XKFuncs.h */,
 			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
-		99D1739585697134513E0942DD349AE4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				01C6D7DDA11149D0C65A353F8E266CB0 /* DXConstantsKit.modulemap */,
-				BD16AA7419BB0390D335D5BC1DC3BA0C /* DXConstantsKit-dummy.m */,
-				2AD0F0F615AF3D129A627D601B67C61F /* DXConstantsKit-Info.plist */,
-				EAD6DF00806415D27B1070D0B9200DAA /* DXConstantsKit-prefix.pch */,
-				FECAC815C57DFA64B14C3C9EAF521256 /* DXConstantsKit-umbrella.h */,
-				3DF197BC40D83C8599C1072438DBD254 /* DXConstantsKit.debug.xcconfig */,
-				F98706775B01F1BCA44B7027996C0499 /* DXConstantsKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DXConstantsKit";
-			sourceTree = "<group>";
-		};
-		9E9A57A13AC9813A5D53DF925FCC3A48 /* Sandbox */ = {
-			isa = PBXGroup;
-			children = (
-				25D011F97C4E13B846575480338CDF89 /* SandboxFile.h */,
-				B05B07055843EAF951F0F15EDDC60231 /* SandboxFile.m */,
-			);
-			name = Sandbox;
-			sourceTree = "<group>";
-		};
-		AC81DFDDB3C45AAB798F8EE724C2EC7A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9FAEDB6EF2136B283410B70517E008DF /* DXConstantsKit.podspec */,
-				68090388C0848942FAF3F249370203E9 /* LICENSE */,
-				35C1A47ECEF1AED4420A87DEF91C2681 /* README.md */,
-			);
-			name = Pod;
+			name = Frame;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -292,16 +277,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C8CA085660CC2889B141CA956961031E /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				A22F7BD2E2730EDF5D377B69A036D8A8 /* XKConstants.h */,
-				9AD40E74F13B37ACF2C1101A0EF9912B /* XKContants.h */,
-				B71EAFA56C46BE078770EA8281583F5E /* XKNotifacionKey.h */,
-			);
-			name = Other;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -323,46 +298,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F538CCB8FB9BE822E074A8AC1F953E67 /* Font */ = {
+		E1A964F39607DDBAE76490F0E12A06CE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2CFC34DB8AE738688C9A2711B85CB6C0 /* XKLayoutManager.h */,
-				907D277A9E13BD7B06228A8E8D01F975 /* XKLayoutManager.m */,
+				7D4AC39028D3C6FD7085EE76143D05AC /* DXConstantsKit.podspec */,
+				B1B2913A2175984121B12D13DC425A08 /* LICENSE */,
+				A05D3454044B53C7F0071D64B62309EC /* README.md */,
 			);
-			name = Font;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		FA88463495DFDEA2F85F4D8D675FF65F /* Service */ = {
+		E5CC697D698B53313A135D9652DF2C11 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				046479C035574B9A7E41F5F35A9D4605 /* ServiceApi.h */,
-				4D18BF36F30FB8065936C639BD986FB2 /* XKServiceURL.h */,
+				B2DC704CA543FF3FC76CB0485BFE0A5E /* XKToolsFunction.h */,
+				3F9EA18D9626E98D504028DEDC2B8D1B /* XKToolsFunction.m */,
 			);
-			name = Service;
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		EE47279452564FC6E5B8DB0F73B32E44 /* DXConstantsKit */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC7FC4CB5960BD0C1B13C080C30D4F /* DXConstantsKit.h */,
+				F22982F46446A85081EF34F37F70959C /* Color */,
+				1E35800EF1A3395FD09468B69B487294 /* Font */,
+				A7C0BC805C0B9A7331AE33D04349E772 /* Frame */,
+				A6A8060C9BBA59E50515F1D767A059FB /* Other */,
+				E1A964F39607DDBAE76490F0E12A06CE /* Pod */,
+				4DADD5B6C390B90EB37B5522F9A66F33 /* Sandbox */,
+				4462495655C5CB6E24FA6CCE9D928BD6 /* Service */,
+				3602FBA568AEFD3DB5CA84348EB5D2A7 /* Support Files */,
+				E5CC697D698B53313A135D9652DF2C11 /* Tool */,
+				2172B69A0F564CAB0158A75F4538B1E0 /* Type */,
+			);
+			name = DXConstantsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F22982F46446A85081EF34F37F70959C /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				4738A092974962ACA00C1D7EEE6E4401 /* XK_FMColor.h */,
+				12BF75605305F4366F95C85CDB1900DC /* XK_FMColor.m */,
+				AA6BFEC011BF9F574B8C978D54B4F1E1 /* XKColor.h */,
+				14BF65B55B0F9E505122E8BE8DF48B74 /* XKColor.m */,
+			);
+			name = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		555C89CD0A0ADE05D8AC2E2C9EBCBE23 /* Headers */ = {
+		52E8909690041EF67329E2F46888B9F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41CAF5BD8AF034E147D44773FDAF6B6 /* DXConstantsKit-umbrella.h in Headers */,
-				B6308565411B3EE9C06ECC8B3A4FCF63 /* DXConstantsKit.h in Headers */,
-				231F6BFA3DA84956A35BA99F05FFC573 /* LiveDefine.h in Headers */,
-				D744F4659FE4EA5AD20D62A8272310A9 /* SandboxFile.h in Headers */,
-				657F3D66828C18DCBE48C56E0D4DE693 /* ServiceApi.h in Headers */,
-				5E5067AA1B2EB2C7440120BED1D23CFC /* XK_FMColor.h in Headers */,
-				AEE409EF08056293CEE22311A3BAAD28 /* XKColor.h in Headers */,
-				07F3306C445CDB310B7737B0B8905523 /* XKConstants.h in Headers */,
-				124413D59DB54EF6F50ED3F974C4EC63 /* XKContants.h in Headers */,
-				C5CCDB0EF6FD11465B04174AB4D5600D /* XKEnum.h in Headers */,
-				E5E931CCD2E523E35EEE415CFA3DCCAD /* XKFuncs.h in Headers */,
-				13E6273B7B19D8D598F2335414A780D3 /* XKLayoutManager.h in Headers */,
-				5C05BDA64C51B8416C4209645345D79E /* XKNotifacionKey.h in Headers */,
-				5D6511F93D1A1C3B49353D03F4611ABC /* XKServiceURL.h in Headers */,
-				8AF1CBD9DFE8FF4B3F36347B9F27999A /* XKToolsFunction.h in Headers */,
+				7D744EFDAAD5FD24CDF10DDD05BF237D /* DXConstantsKit-umbrella.h in Headers */,
+				478303F69D930DA5DF4D33E897EB89CC /* DXConstantsKit.h in Headers */,
+				0CAC3F856444922319AFC7B56CA27D51 /* LiveDefine.h in Headers */,
+				A26E9E339F6139B74C122A829C29B873 /* SandboxFile.h in Headers */,
+				E3E2F47BBCCD81AB3C59C8455DAD0ACE /* ServiceApi.h in Headers */,
+				387B2EBC80C0A7DB1BC2D42FF49109C7 /* XK_FMColor.h in Headers */,
+				F8D735B65F02C895827F6753039FD679 /* XKAPPConfig.h in Headers */,
+				6D027228CAFEC503BDAD412E733C63ED /* XKColor.h in Headers */,
+				E7DC252969777F5CACBF8E2C61710011 /* XKConstants.h in Headers */,
+				67EC46360CD393EA6BB6C7DA42B7C906 /* XKContants.h in Headers */,
+				2D5D4684A17D6984E79B26A6BC7011D8 /* XKEnum.h in Headers */,
+				C72349F75A1CE65C78D01A779E463287 /* XKFuncs.h in Headers */,
+				57C9D10E9D19905563499E095CBCA028 /* XKLayoutManager.h in Headers */,
+				728BB6057B981C6CD54CBC7C010F575D /* XKNotifacionKey.h in Headers */,
+				66B8601C44E70A547D286346839D4DD3 /* XKServiceURL.h in Headers */,
+				2EC5432013E36699E92C993BB580A44D /* XKShellHead.h in Headers */,
+				B5E81AAFCE8B841BAB0B3E95CE4E7F34 /* XKToolsFunction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,12 +395,12 @@
 /* Begin PBXNativeTarget section */
 		1496E30E4BA4495C46BEE495D621C272 /* DXConstantsKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2017D9B7175E6E73D51B83FC08CDF731 /* Build configuration list for PBXNativeTarget "DXConstantsKit" */;
+			buildConfigurationList = 9829E0808BD9E9D624F0CCBFC0748211 /* Build configuration list for PBXNativeTarget "DXConstantsKit" */;
 			buildPhases = (
-				555C89CD0A0ADE05D8AC2E2C9EBCBE23 /* Headers */,
-				1BEEEFB5CD8D9A899C51239E42D5B085 /* Sources */,
-				6E0322B9BBA7449F5D5E11B651D7E5DE /* Frameworks */,
-				B6468C3FEB45C510ADA7A22D975ACCED /* Resources */,
+				52E8909690041EF67329E2F46888B9F8 /* Headers */,
+				A903D6242C008A9177D7A0B859E4052F /* Sources */,
+				EE922754A705F1E0D6F2DB39FA4F0191 /* Frameworks */,
+				08F4510FF1014D5EDBD480BC92F385BD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -471,14 +479,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E02ECAD746B4DA01CB3A295A9B72649 /* Resources */ = {
+		08F4510FF1014D5EDBD480BC92F385BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6468C3FEB45C510ADA7A22D975ACCED /* Resources */ = {
+		6E02ECAD746B4DA01CB3A295A9B72649 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,24 +503,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BEEEFB5CD8D9A899C51239E42D5B085 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DE6DDA545F507EE8516E2D6C2087D82 /* DXConstantsKit-dummy.m in Sources */,
-				C7A030E88F78F1F94C7F655F346AE7E0 /* SandboxFile.m in Sources */,
-				585614DD4470CD738341C0C15295DC91 /* XK_FMColor.m in Sources */,
-				6F1D946F49BD88A8DFE6FA82A3F0CCBE /* XKColor.m in Sources */,
-				0B7405E2C7E457A2C5F3E929358C81C3 /* XKLayoutManager.m in Sources */,
-				F8C8D605E646965F64B5F9A556BF09D1 /* XKToolsFunction.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		342B0FA12B7F09F2C36EC229E21F97B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEA98A3CAE731693CCC1787FEB17FD54 /* Pods-DXConstantsKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A903D6242C008A9177D7A0B859E4052F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDD0932634343B96CBE12669479EAC9 /* DXConstantsKit-dummy.m in Sources */,
+				3DF046AEC3229400D0006DC6B20869CA /* SandboxFile.m in Sources */,
+				0D7C9DAE68CE94D42341ABADA2E714DC /* XK_FMColor.m in Sources */,
+				B53F3447751574D32635CBE873D0480A /* XKColor.m in Sources */,
+				6EE5FEE4C834CE6DFA042F1B47D80413 /* XKLayoutManager.m in Sources */,
+				23CE487E17EE4DC96055BC0220F6449F /* XKToolsFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,38 +577,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A75BCAEDAAC2B81A1464420F3EADC7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F98706775B01F1BCA44B7027996C0499 /* DXConstantsKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DXConstantsKit/DXConstantsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DXConstantsKit/DXConstantsKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DXConstantsKit/DXConstantsKit.modulemap";
-				PRODUCT_MODULE_NAME = DXConstantsKit;
-				PRODUCT_NAME = DXConstantsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -695,6 +671,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E893912B3EE882FABD2EBFA532E0AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E43629C767CE877BD4EA5853C9163B /* DXConstantsKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DXConstantsKit/DXConstantsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DXConstantsKit/DXConstantsKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DXConstantsKit/DXConstantsKit.modulemap";
+				PRODUCT_MODULE_NAME = DXConstantsKit;
+				PRODUCT_NAME = DXConstantsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -832,9 +839,9 @@
 			};
 			name = Debug;
 		};
-		ECCB91E29DEA3D68B38647DD0FC3B73A /* Debug */ = {
+		FED5937DE69DEB4F7DFB5338A7FC03C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DF197BC40D83C8599C1072438DBD254 /* DXConstantsKit.debug.xcconfig */;
+			baseConfigurationReference = 9008829171DAAB05A7889AFA8B1BD99C /* DXConstantsKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -858,23 +865,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2017D9B7175E6E73D51B83FC08CDF731 /* Build configuration list for PBXNativeTarget "DXConstantsKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECCB91E29DEA3D68B38647DD0FC3B73A /* Debug */,
-				4A75BCAEDAAC2B81A1464420F3EADC7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -889,6 +888,15 @@
 			buildConfigurations = (
 				D186A67E6B59E7FF3E151114DBD5836A /* Debug */,
 				0A5DC472BD093FF528267FC2A48C8BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9829E0808BD9E9D624F0CCBFC0748211 /* Build configuration list for PBXNativeTarget "DXConstantsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E893912B3EE882FABD2EBFA532E0AC8 /* Debug */,
+				FED5937DE69DEB4F7DFB5338A7FC03C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
