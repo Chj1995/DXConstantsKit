@@ -262,4 +262,8 @@ static NSString * const kDressActionAPI = @"shop/common/dress/dress"; // 佩戴�
 static NSString * const kHalloweenGetActivityProgressAPI = @"consumer/common/halloween/getActivityProgress"; // 获取万圣节活动进度
 static NSString * const kHalloweenCanGetBoxAPI = @"consumer/common/halloween/getBox"; // 万圣节活动领取宝箱
 
+// 爆奖彩池活动开关
+static NSString * const kAnchorexplodeAPI = @"consumer/common/explodelottery/anchorexplode"; // 获取主播直播的爆奖状态
+static NSString * const kExplodeswitchAPI = @"consumer/common/explodelottery/explodeswitch"; // app在直播间内开启或关闭爆奖开关
+
 #endif /* ServiceApi_h */
